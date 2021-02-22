@@ -14,9 +14,9 @@ function firstQuestion(){
     
     $('.content').hide();
     Swal.fire({
-        title: 'chào mít!',
+        title: 'Ckao Tiên :)) ',
         text: 'toi hỏi bạn cái này nhé',
-        imageUrl: 'img/caymit.jpg',
+        imageUrl: 'img/vuandtien.jpg',
         imageWidth: 300,
         imageHeight: 300,
         background: '#fff url("img/iput-bg.jpg")',
@@ -73,7 +73,7 @@ $('#no').click(() => {
 // generate text in input
 function textGenerate() {
     var n = "";
-    var text = " Tại vì mình là cây mít:<<<<<<< ";
+    var text = " yêu thì cần gì lí do nhỉ :)) ";
     var a = Array.from(text);
     var textVal = $('#txtReason').val() ? $('#txtReason').val() : "";
     var count = textVal.length;
@@ -96,7 +96,7 @@ $('#yes').click(function() {
     var audio = new Audio('sound/tick.mp3');
     audio.play();
     Swal.fire({
-        title: 'Vì sao lại không được thế? :vvvv',
+        title: 'tell me why :vvvv',
         html: true,
         width: 900,
         padding: '3em',
@@ -119,13 +119,13 @@ $('#yes').click(function() {
         if (result.value) {
             Swal.fire({
                 width: 900,
-                confirmButtonText: 'Ok mai la cay mit',
+                confirmButtonText: 'thế còn chờ gì nữa, inbox ngay cho Vũ đi nào :DDD',
                 background: '#fff url("img/iput-bg.jpg")',
-                title: 'hehe biết mà',
-                text: "mãi là cây mít bạn nhé",
+                title: '(sqrt(cos(x))*cos(200 x)+sqrt(abs(x))-0.7)*(4-x*x)^0.01, sqrt(9-x^2), -sqrt(9-x^2) from -4.5 to 4.5',
+                text: "520 1314",
                 confirmButtonColor: '#83d0c9',
                 onClose: () => {
-                    window.location = 'http://fb.com';
+                    window.location = 'http://fb.com/hoangvu.ass';
                   }
             })
         }
