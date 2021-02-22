@@ -119,7 +119,7 @@ $('#yes').click(function() {
         if (result.value) {
             Swal.fire({
                 width: 900,
-                confirmButtonText: 'thế còn chờ gì nữa, inbox ngay cho Vũ đi nào :DDD',
+                confirmButtonText: 'thế còn chờ gì nữa, inbox ngay cho Vũ đi nào :DDD, khong can xem bai tarot nua dau :))',
                 background: '#fff url("img/iput-bg.jpg")',
                 title: '(sqrt(cos(x))*cos(200 x)+sqrt(abs(x))-0.7)*(4-x*x)^0.01, sqrt(9-x^2), -sqrt(9-x^2) from -4.5 to 4.5',
                 text: "520 1314",
